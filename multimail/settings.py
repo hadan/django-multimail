@@ -32,5 +32,6 @@ MM = Settings(
     SET_AS_PRIMARY_REDIRECT = 'profile',
     ALLOW_REMOVE_LAST_VERIFIED_EMAIL = False,
     REMOVE_LAST_VERIFIED_EMAIL_ATTEMPT_MSG = "Cannot remove last verified email. Add another verified email address to remove the existing one.",
-    DELETE_EMAIL_REDIRECT = 'profile'
+    DELETE_EMAIL_REDIRECT = 'profile',
+    ACTIVE_AS_VERIFIED_EMAIL = True
 )
